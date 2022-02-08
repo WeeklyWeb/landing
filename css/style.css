@@ -1,0 +1,604 @@
+.b1 {
+    background: url(MOZGEBY.jpg) no-repeat center top;
+    height: 585px;
+    padding: 16px 0 0
+}
+
+.phone-site {
+    display: flex;
+    justify-content: center;
+    background: #fff
+}
+
+.phone-site a {
+    font-size: 32px;
+    color: #333;
+    padding: 10px;
+    text-decoration: none
+}
+
+.phone-sites {
+    display: flex;
+    justify-content: center
+}
+
+.phone-sites a {
+    font-size: 32px;
+    color: #333;
+    padding: 10px;
+    text-decoration: none
+}
+
+.b1 h2 {
+    color: #000;
+    font-size: 20px;
+    font-family: bebas neue;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3.4px;
+    line-height: 25px
+}
+
+.b1 h1 {
+    -webkit-text-fill-color: #2196f3;
+    -webkit-text-stroke: 1px #000;
+    margin: 0;
+    font-size: 72px;
+    text-align: center;
+    line-height: 84px;
+    letter-spacing: 6px
+}
+
+.b1 h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: bebas neue;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background: #ff4853;
+    width: 332px;
+    height: 29px;
+    line-height: 29px;
+    letter-spacing: 1px
+}
+
+.for {
+    text-align: center;
+    margin: 23px 0
+}
+
+.for li {
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    font-family: bebas neue;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 22px
+}
+
+.for span {
+    color: #2196f3
+}
+
+.for li:nth-child(2) {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0 10px
+}
+
+.b1 img {
+    display: block;
+    margin: 0 auto 27px
+}
+
+.sale {
+    font-family: bebas neue;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 106px;
+    height: 106px;
+    display: block;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background: #00bfff;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+    line-height: 1.5em;
+    border: 8px solid transparent;
+    background-clip: padding-box;
+    padding: 4px 0 0;
+    -webkit-box-shadow: 0 0 0 1.5px rgba(255, 255, 255, .2);
+    box-shadow: 0 0 0 1.5px rgba(255, 255, 255, .2);
+    position: relative
+}
+
+.sale p {
+    font-size: 38px
+}
+
+.stock {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bebas neue;
+    font-weight: 400
+}
+
+.stock span {
+    color: #fff;
+    display: inline-block;
+    background: #ff4853;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width: 32px;
+    height: 34px;
+    border-bottom: 2px solid #af272f;
+    line-height: 34px;
+    font-family: bebas neue;
+    font-weight: 700;
+    margin: 0 5px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
+}
+
+.b2 h2 {
+    padding: 0 30px
+}
+
+.beaf {
+    position: relative;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff
+}
+
+.beaf img {
+    display: block
+}
+
+.beaf hr {
+    display: block;
+    border: none;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 239px;
+    background: #fff
+}
+
+.beaf:before {
+    content: '';
+    display: block;
+    background: url(http://vtrybe.shop/img/before.png) no-repeat 0 0;
+    width: 52px;
+    height: 53px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.beaf:after {
+    content: '';
+    display: block;
+    background: url(http://vtrybe.shop/img/after.png) no-repeat 0 0;
+    width: 110px;
+    height: 56px;
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.b2>p {
+    padding: 20px;
+    text-align: justify
+}
+
+.place {
+    text-align: center
+}
+
+.place li {
+    width: 49.5%;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 30px
+}
+
+.place p {
+    font-size: 18px;
+    font-family: bebas neue;
+    font-weight: 400;
+    line-height: 22px
+}
+
+.place li:before {
+    content: '';
+    display: block;
+    width: 122px;
+    height: 122px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background: #ff4853 url(place.png) no-repeat center 30px;
+    margin: 0 auto 13px;
+    border: 4px solid #f2f2f2
+}
+
+.place li:nth-child(2):before {
+    background-position: center -97px
+}
+
+.place li:nth-child(3):before {
+    background-position: center -223px
+}
+
+.place li:nth-child(4):before {
+    background-position: center -367px
+}
+
+.place li:nth-child(5):before {
+    background-position: center -490px
+}
+
+.place li:nth-child(6):before {
+    background-position: center -616px
+}
+
+.b3 {
+    color: #fff;
+    background: #373a41;
+    padding-bottom: 40px
+}
+
+.b3 h2 span {
+    display: block
+}
+
+.b3 p {
+    padding: 0 20px
+}
+
+.product .plus {
+    text-align: center;
+    border-top: 1px dashed #4b4e54;
+    border-bottom: 1px dashed #4b4e54;
+    padding-top: 18px;
+    margin: 20px 0 25px
+}
+
+.plus li {
+    display: inline-block;
+    margin: 0 -12px 16px
+}
+
+.plus p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: bebas neue;
+    font-weight: 700;
+    overflow: hidden
+}
+
+.plus li p:before {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 21px;
+    background: url(plus.png) no-repeat center 0;
+    float: left;
+    margin: 0 4px 0 0
+}
+
+.plus li:nth-child(2) p:before {
+    background-position: center -32px
+}
+
+.plus li:nth-child(3) p:before {
+    background-position: center -63px
+}
+
+.plus li:nth-child(4) p:before {
+    background-position: center -95px
+}
+
+.plus li:nth-child(5) p:before {
+    background-position: center -129px
+}
+
+.plus li:nth-child(4) {
+    margin-right: 5px
+}
+
+.b4 {
+    padding-top: 0
+}
+
+.b4 h2 {
+    margin-top: 24px
+}
+
+.use {
+    background: #373a41;
+    color: #fff
+}
+
+.use li {
+    display: block;
+    height: 240px;
+    background: url(http://vtrybe.shop/img/use.jpg) no-repeat 0 0;
+    text-align: center;
+    padding: 44px 38px 0 282px
+}
+
+.use li:nth-child(2) {
+    background-position: right -240px;
+    padding: 44px 282px 0 38px
+}
+
+.use li:nth-child(3) {
+    background-position: left -480px
+}
+
+.use p:before {
+    content: '1';
+    display: block;
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background: #ff4853;
+    margin: 0 auto 10px;
+    font-size: 46px;
+    font-family: bebas neue;
+    font-weight: 700;
+    line-height: 71px
+}
+
+.use li:nth-child(2) p:before {
+    content: '2'
+}
+
+.use li:nth-child(3) p:before {
+    content: '3'
+}
+
+.b5 {
+    /* background: url(b2.jpg) no-repeat center top; */
+    height: 614px;
+    color: #fff
+}
+
+.ship {
+    text-align: center
+}
+
+.ship li {
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+    margin-bottom: 38px
+}
+
+.ship span {
+    background: url(ship.png) no-repeat center 0;
+    display: block;
+    width: 137px;
+    height: 137px;
+    margin: 0 auto 30px;
+    padding-top: 121px
+}
+
+.ship p {
+    padding: 0 27px
+}
+
+.ship li:nth-child(2) span {
+    background-position: center -137px
+}
+
+.ship li:nth-child(3) span {
+    background-position: center -274px
+}
+
+.ship li:nth-child(4) span {
+    background-position: center -411px
+}
+
+.ship span:after {
+    content: '01';
+    display: block;
+    width: 31px;
+    height: 31px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background: #fff;
+    color: #222;
+    font-size: 18px;
+    font-family: bebas neue;
+    font-weight: 700;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 auto
+}
+
+.ship li:nth-child(2) span:after {
+    content: '02'
+}
+
+.ship li:nth-child(3) span:after {
+    content: '03'
+}
+
+.ship li:nth-child(4) span:after {
+    content: '04'
+}
+
+.b6 {}
+
+.reviews {
+    text-align: center
+}
+
+.reviews img {
+    margin: 0
+}
+
+.reviews h3 {
+    text-align: center;
+    font-size: 22px
+}
+
+.reviews h3:after {
+    content: '';
+    display: block;
+    background: url(img/stars.png) no-repeat 0 0;
+    width: 94px;
+    height: 14px;
+    margin: 3px auto 0
+}
+
+.reviews p {
+    padding: 10px 20px 40px
+}
+
+.b7 {
+    background: #313642;
+    padding: 9px 0 3px 0;
+    border-bottom: 1px solid #555963
+}
+
+.b7 h2 {
+    color: #fff;
+    font-size: 54px;
+    text-align: center
+}
+
+.b7 h2 span {
+    color: #00e391
+}
+
+.end {
+    height: 525px;
+    border-bottom: 1px solid #555963
+}
+
+.b8 {
+    background: #313642;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #484b54
+}
+
+.footer {
+    text-align: center;
+    padding: 0 0 30px;
+    background: #2e2f33
+}
+
+.footer a {
+    font-size: 14px;
+    color: #d5d5d6
+}
+
+footer .images img:not(:last-child) {
+    margin-bottom: 20px!important
+}
+
+.block1-pod {
+    display: none;
+    width: 145px;
+    height: 163px;
+    position: absolute
+}
+
+.podarok {
+    display: none;
+    background: #eee;
+    padding: 30px 0
+}
+
+.podarok img {
+    float: none;
+    width: 200px;
+    margin: 15px auto;
+    display: block
+}
+
+.payment {
+    max-width: 990px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ccc
+}
+
+.delivery {
+    max-width: 990px;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px
+}
+
+.proposition {
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: -10px
+}
+
+.proposition-white {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 22px
+}
+
+.noscroll {
+    overflow-y: hidden
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.modal-block {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(251, 245, 3, 1) 0%, rgba(251, 213, 3, 1) 100%);
+    padding: 40px
+}
+
+.modal-block h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: bebas neue
+}
+
+.hide {
+    display: none
+}
+
+.contact h2 {
+    text-align: center;
+    font-family: bebas neue
+}

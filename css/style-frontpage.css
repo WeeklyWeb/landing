@@ -1,0 +1,236 @@
+@font-face {
+    font-family: bebas neue;
+    src: url(fonts/Bebas_Neue.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+body .frontpage {
+    font-family: oswald;
+    box-sizing: content-box
+}
+
+.frontpage .plus {
+    font-family: Roboto;
+    font-size: 16px
+}
+
+.frontpage .number {
+    display: inline-block
+}
+
+.frontpage .header {
+    background-color: #9bc356;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.frontpage .header img {
+    margin-right: 10px;
+    margin-top: 2px
+}
+
+.frontpage .site-name {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 36px;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center
+}
+
+.frontpage .mail-button {
+    border-radius: 50%;
+    background-color: #9bc356;
+    border: none;
+    cursor: pointer
+}
+
+.frontpage .viber-button {
+    border-radius: 50%;
+    background-color: #9bc356;
+    border: none;
+    cursor: pointer
+}
+
+.frontpage .mail-logo {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: #fff
+}
+
+.frontpage .viber-logo {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: #fff
+}
+
+.frontpage .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.frontpage .call-button {
+    border-radius: 50%;
+    background-color: #9bc356;
+    border: none;
+    cursor: pointer
+}
+
+.frontpage .call-logo {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%
+}
+
+.frontpage .call-link {
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 5px
+}
+
+.frontpage .mail-link {
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+
+.frontpage .viber-link {
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 5px
+}
+
+.frontpage .description {
+    display: flex;
+    flex-direction: column
+}
+
+.frontpage .products-catalog {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #000;
+    opacity: 1
+}
+
+.frontpage .product-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 990px;
+    flex-wrap: wrap
+}
+
+.frontpage .card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #000;
+    opacity: 1
+}
+
+.frontpage video {
+    width: 300px;
+    height: 250px;
+    object-fit: cover
+}
+
+.frontpage .product-link {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    opacity: 1
+}
+
+.frontpage .product-name {
+    margin-top: 7px;
+    text-align: center
+}
+
+.frontpage .price {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.frontpage .price-old {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: line-through
+}
+
+.frontpage .price-new {
+    color: red
+}
+
+.frontpage .payment {
+    max-width: 990px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ccc
+}
+
+.frontpage .delivery {
+    max-width: 990px;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.about-us {
+    text-align: center;
+    background-color: #9bc356;
+    color: #000;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.about-us a {
+    color: #000;
+    display: block
+}
+
+.about-us p {
+    margin-bottom: 5px
+}
